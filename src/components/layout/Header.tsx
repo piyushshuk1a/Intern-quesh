@@ -34,9 +34,17 @@ export const Header = ({ currentPath }: HeaderProps) => {
           </NavLink>
         </nav>
 
-        <Button variant="outline" size="sm">
-          Logout
-        </Button>
+        <Button
+  variant="outline"
+  size="sm"
+  onClick={() => {
+    localStorage.removeItem("token"); // or the key your app uses
+    window.location.href = "/login";  // or use a router redirect if using React Router
+  }}
+>
+  Logout
+</Button>
+
       </div>
     </header>
   );
