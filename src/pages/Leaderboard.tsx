@@ -24,7 +24,7 @@ const leaderboardData = [
   },
   { 
     rank: 3, 
-    name: "Alex Johnson", 
+    name: "Piyush Shukla", 
     donations: 2450, 
     referrals: 12, 
     avatar: "", 
