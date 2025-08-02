@@ -8,8 +8,8 @@ import { useToast } from "@/hooks/use-toast";
 
 // Dummy data
 const internData = {
-  name: "Alex Johnson",
-  referralCode: "ALEX2025",
+  name: "Piyush Shukla",
+  referralCode: "PIYUSH2025",
   totalDonations: 2450,
   donationGoal: 5000,
   referrals: 12,
